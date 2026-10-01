@@ -155,8 +155,8 @@ export default function Home() {
                 <div className="tiles">
                   <div className="tile tile-sunny">
                     <small>Customers</small>
-                    <b>38</b>
-                    <em>came back this week</em>
+                    <b>214</b>
+                    <em>+18 this week</em>
                   </div>
                   <div className="tile">
                     <small>Stamps</small>

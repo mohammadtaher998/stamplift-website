@@ -15,9 +15,9 @@ const body = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Stamplift — Tap-to-Stamp Loyalty for Apple & Google Wallet",
+  title: "Stamplift",
   description:
-    "Stamplift turns an NFC tap into a full loyalty program on Apple Wallet and Google Wallet. No app, no plastic card.",
+    "Stamplift turns a simple QR scan into a digital loyalty card in Apple Wallet or Google Wallet. No app to install, no plastic card to lose.",
 };
 
 export default function RootLayout({

@@ -34,12 +34,13 @@ export default function Home() {
         <section id="home" className="hero">
           <div className="container hero-grid">
             <div className="hero-copy">
-              <p className="eyebrow">Tap. Stamp. Done.</p>
+              <p className="eyebrow">Scan. Stamp. Reward.</p>
               <h1>The loyalty card that never goes through the wash.</h1>
               <p className="lede">
-                Stamplift turns a single NFC tap into a full stamp card on Apple
-                Wallet and Google Wallet. No app to install, no plastic card to
-                lose, no &ldquo;sorry, it&apos;s in my other jacket.&rdquo;
+                Stamplift turns a simple QR scan into a digital loyalty card in
+                Apple Wallet or Google Wallet. Customers scan to get their card,
+                then merchants scan the customer&rsquo;s card after each purchase
+                to add a stamp. No app to install, no plastic card to lose.
               </p>
               <div className="cta-row">
                 <a className="btn btn-primary" href="#contact">
@@ -93,10 +94,10 @@ export default function Home() {
               <li className="step">
                 <Stampy size={56} pose="wave" />
                 <span className="step-num">1</span>
-                <h3>Tap</h3>
+                <h3>Scan to Join</h3>
                 <p>
-                  A customer taps their phone on your NFC tag — at the counter,
-                  on a table, anywhere.
+                  A customer scans your QR code at the counter, on a table, or
+                  anywhere you choose to start their loyalty card.
                 </p>
               </li>
               <li className="step">
@@ -104,17 +105,18 @@ export default function Home() {
                 <span className="step-num">2</span>
                 <h3>Add to Wallet</h3>
                 <p>
-                  A short one-time form adds their stamp card to Apple Wallet or
-                  Google Wallet.
+                  A short one-time form adds their loyalty card to Apple Wallet
+                  or Google Wallet. No app download needed.
                 </p>
               </li>
               <li className="step">
                 <Stampy size={56} pose="happy" />
                 <span className="step-num">3</span>
-                <h3>Collect</h3>
+                <h3>Scan to Stamp</h3>
                 <p>
-                  Every later tap updates their stamp count instantly, right on
-                  the pass already in their wallet.
+                  After each purchase, you scan the customer&rsquo;s loyalty card
+                  to add a stamp. Their stamp count updates instantly in their
+                  wallet.
                 </p>
               </li>
             </ol>
@@ -125,16 +127,17 @@ export default function Home() {
           <div className="container split">
             <div>
               <p className="eyebrow">For shops</p>
-              <h2>Your card, your colours. We just do the stamping.</h2>
+              <h2>Your brand. Your rewards. We handle the rest.</h2>
               <p>
-                Your logo, your colours and your reward go on the card. Stamplift
-                handles Apple and Google behind the scenes, and shows you who
-                keeps coming back.
+                Your logo, your colours and your rewards stay front and centre.
+                Stamplift handles the digital wallet experience, while your team
+                simply scans a customer&rsquo;s card after each purchase to add a
+                stamp.
               </p>
               <ul className="ticks">
-                <li>Customers never download anything</li>
-                <li>Cards update the second a stamp lands</li>
-                <li>See customers, stamps and rewards at a glance</li>
+                <li>Customers join by scanning a QR code — no app download</li>
+                <li>Scan a customer&rsquo;s wallet card to add a stamp instantly</li>
+                <li>Track customers, stamps and rewards from one dashboard</li>
               </ul>
             </div>
 
@@ -148,12 +151,12 @@ export default function Home() {
               </div>
               <div className="portal-body">
                 <h3>Morning, Northline.</h3>
-                <p>38 regulars came back this week. Stampy is doing a little dance.</p>
+                <p>38 customers came back this week. Your loyalty program is keeping them engaged.</p>
                 <div className="tiles">
                   <div className="tile tile-sunny">
                     <small>Customers</small>
-                    <b>214</b>
-                    <em>+18 this week</em>
+                    <b>38</b>
+                    <em>came back this week</em>
                   </div>
                   <div className="tile">
                     <small>Stamps</small>
@@ -175,17 +178,28 @@ export default function Home() {
         <section id="about" className="section">
           <div className="container narrow">
             <p className="eyebrow">About us</p>
-            <h2>A loyalty platform built for the region, not adapted for it.</h2>
+            <h2>Built in Canada. Growing loyalty around the world.</h2>
             <p>
-              Most digital loyalty tools are built elsewhere and translated as an
-              afterthought. Stamplift starts from the opposite direction: local
-              pricing, Arabic-ready from day one, and onboarding that&apos;s
-              hands-on rather than a self-serve form buried in a help center.
+              Stamplift is a Canadian technology startup building simple digital
+              loyalty solutions for businesses in Canada, the United States and
+              markets around the world. Our goal is to help restaurants, cafés,
+              retailers and local businesses build stronger relationships with
+              their customers without complicated apps, expensive hardware or
+              outdated plastic cards.
             </p>
             <p>
-              The product stays deliberately simple: tap an NFC tag, add a pass to
-              Apple Wallet or Google Wallet, and every visit after that just works
-              — no login, no app, no friction.
+              We believe loyalty should be effortless for both the business and
+              the customer. Customers can scan a QR code to add their loyalty card
+              directly to Apple Wallet or Google Wallet. Merchants can then scan
+              the customer&rsquo;s card after each purchase to add stamps and
+              reward repeat visits.
+            </p>
+            <p>
+              Our vision is to make digital loyalty simple, accessible and
+              effective for businesses of every size. We are building Stamplift to
+              become a trusted global loyalty platform that helps businesses
+              understand their customers, encourage repeat visits and create
+              better customer experiences through simple technology.
             </p>
           </div>
         </section>

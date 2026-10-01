@@ -135,7 +135,7 @@ export default function Home() {
                 stamp.
               </p>
               <ul className="ticks">
-                <li>Customers join by scanning a QR code — no app download</li>
+                <li>Customers join by scanning a QR code → no app download</li>
                 <li>Scan a customer&rsquo;s wallet card to add a stamp instantly</li>
                 <li>Track customers, stamps and rewards from one dashboard</li>
               </ul>

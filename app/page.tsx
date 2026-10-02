@@ -208,14 +208,17 @@ export default function Home() {
           <div className="container contact-inner">
             <Stampy size={112} pose="wave" />
             <div>
-              <h2>Stampy&apos;s ready when you are.</h2>
+              <h2>Ready to build loyalty that lasts?</h2>
               <p>
-                Tell us about your business and we&apos;ll set up your first
-                program.
+                Tell us about your business and we&rsquo;ll help you launch your
+                first digital loyalty program.
               </p>
               <a className="btn btn-sunny" href={`mailto:${SUPPORT_EMAIL}`}>
-                {SUPPORT_EMAIL}
+                Get Started
               </a>
+              <p className="contact-alt">
+                or contact <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>
+              </p>
             </div>
           </div>
         </section>
@@ -224,9 +227,10 @@ export default function Home() {
       <footer className="site-footer">
         <div className="container footer-inner">
           <Logo size={22} />
-          <span>
-            © 2026 Stamplift · {SITE_DOMAIN}
-          </span>
+          <div className="footer-meta">
+            <span>Toronto, Canada · Serving businesses worldwide</span>
+            <span>© 2026 Stamplift · {SITE_DOMAIN}</span>
+          </div>
           <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>
         </div>
       </footer>
